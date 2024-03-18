@@ -1,3 +1,6 @@
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,15 +8,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ padding: 0, margin: 0 }}>
         {" "}
-        <header style={{ backgroundColor: "lightblue", paddingBottom: "1rem" }}>
-          <p>Header</p>
-        </header>
+        <Header />
         {children}
-        <footer style={{ backgroundColor: "ghostwhite", paddingTop: "1rem" }}>
-          <p>Footer</p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
