@@ -14,7 +14,7 @@ const Footer = () => {
         width: " 100%",
       }}
     >
-      Contact: support valenga20@gmail.com horario 16hs a 4am hs
+      Contact: support franciscovaninetti@gmail.com horario 13hs a 13:05 hs
     </div>
   );
 };
