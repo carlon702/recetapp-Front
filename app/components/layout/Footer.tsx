@@ -14,7 +14,7 @@ const Footer = () => {
         width: " 100%",
       }}
     >
-      Contact: support franciscovaninetti@gmail.com horario 13hs a 13:05 hs
+      Contact: support franciscovaninetti@gmail.com horario 13hs a 13:05 hs -- Nico en el footer --
     </div>
   );
 };
